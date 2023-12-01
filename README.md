@@ -7,7 +7,7 @@ I wrote this handy little script to SSH into one of my WAN Routers and do a "Sh 
 - The script will prompt you for your username and password however you can specify a username and password in the netmiko_params section (I do not advise this unless this is being executed in a secure or LAB Environment)
 
 
-netmiko_params = {
+netmiko_params =
  "device_type": "cisco_ios", 
  "ip": "X.X.X.X",
  "username": username,
