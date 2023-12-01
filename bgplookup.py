@@ -20,7 +20,6 @@ netmiko_params = {
     "global_delay_factor": 2,
 }
 
-
 net_connect = ConnectHandler(**netmiko_params)
 
 output = net_connect.send_command('show ip route ' + prefix)
